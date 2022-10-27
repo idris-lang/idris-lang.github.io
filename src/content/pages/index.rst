@@ -3,7 +3,7 @@ Idris: A Language for Type-Driven Development
 
 :save_as: index.html
 :status: hidden
-:date: 2020-04-01 11:00
+:date: 2022-10-27 16:35
 
 .. .. image:: images/profile.jpeg
 ..   :alt: [Shape Sorter Box]
@@ -41,7 +41,8 @@ Community
 ---------
 
 **Mailing list**
-    Long-form discussion happens on the `mailing list <https://groups.google.com/forum/#!forum/idris-lang>`_.
+    Long-form discussion happens on the
+    `mailing list <https://groups.google.com/forum/#!forum/idris-lang>`_.
 **GitHub**
     The Idris source is available from our repository.
     Tools and code by the wider Idris community are available in a 
@@ -57,15 +58,17 @@ Community
     Point your irc client to ``irc.libera.chat`` then ``/join #idris``.
     For a web interface, you can try `IRCCloud <https://www.irccloud.com/>`_.
 **Slack**
-    There is an active ``#idris`` channel on the 
-    `Functional Programming <https://functionalprogramming.slack.com/>`_ Slack.
+    There is an ``#idris`` channel on the 
+    `Functional Programming <https://functionalprogramming.slack.com/>`_
+    Slack.
 
 All participants in these forums are requested to abide by the 
 `community standards <{filename}./docs/standards.rst>`_.
 
 Idris development is led by `Edwin Brady
 <http://www.type-driven.org.uk/edwinb/>`_
-at the `School of Computer Science, University of St Andrews <http://www.cs.st-andrews.ac.uk>`_.
+at the
+`School of Computer Science, University of St Andrews <http://www.cs.st-andrews.ac.uk>`_.
 
 Many thanks to Heath Johns for designing the logo.
 

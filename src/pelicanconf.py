@@ -24,7 +24,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = ()
-#('Idris', 'https://idris-lang.org/'),
+#('Idris', 'https://idris-lang.github.io/'),
 #         ('CS at St Andrews', 'https://www.cs.st-andrews.ac.uk/'),)
 
 # Social widget
