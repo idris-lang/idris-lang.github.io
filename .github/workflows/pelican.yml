@@ -44,7 +44,7 @@ jobs:
       - name: Build site using Pelican
         run: |
           cd src
-          pelican content
+          pelican content -s publishconf.py
           cd ..
 
       - name: Upload site
