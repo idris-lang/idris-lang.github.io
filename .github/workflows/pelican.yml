@@ -1,0 +1,65 @@
+## the contents of this file were based on the existing deployment templates in
+## https://github.com/actions/starter-workflows/tree/main/pages
+
+name: Deploy Pelican site to GH Pages
+
+on:
+  push:
+    branches: [$default-branch]
+
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+    cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+          cache: 'pip'
+
+      - name: Install Pelican
+        run: pip install pelican markdown
+
+      - name: Build site using Pelican
+        run: |
+          cd src
+          pelican content
+          cd ..
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./src/output
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GH Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+
