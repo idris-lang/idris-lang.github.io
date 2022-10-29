@@ -27,8 +27,7 @@ version of Idris 2, which is implemented in Idris 1:
 
 + ``git clone`` `https://github.com/edwinb/Idris2-boot.git <https://github.com/edwinb/Idris2=boot>`_
 
-Previous releases
-=================
+Previous releases are also available:
 
 * `idris2-0.5.1.tgz <releases/idris2-0.5.1.tgz>`_ `(SHA 256 hash) <releases/idris2-0.5.1.tgz.sha256>`__
 * `idris2-0.4.0.tgz <releases/idris2-0.4.0.tgz>`_ `(SHA 256 hash) <releases/idris2-0.4.0.tgz.sha256>`__
