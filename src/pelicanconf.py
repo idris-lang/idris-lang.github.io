@@ -9,7 +9,7 @@ SITELOGO = 'images/logo-small.png'
 THEME = 'notmyidea-cms'
 
 PATH = 'content'
-STATIC_PATHS =['images']
+STATIC_PATHS =['images','releases']
 
 TIMEZONE = 'UTC'
 
