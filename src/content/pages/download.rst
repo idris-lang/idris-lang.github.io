@@ -75,6 +75,7 @@ There are editor modes which support interactive editing:
 
   * `Vim mode (for Idris 2) <https://github.com/edwinb/idris2-vim>`_
   * `Emacs mode (for Idris 2) <https://github.com/idris-community/idris2-mode>`_
+  * `Language Server Protocol <https://github.com/idris-community/idris2-lsp>
 
 * Idris 1
 
