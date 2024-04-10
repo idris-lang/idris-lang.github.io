@@ -22,18 +22,21 @@ You can always find the latest development version `on github
 
 + ``git clone`` `https://github.com/idris-lang/Idris2.git <https://github.com/idris-lang/Idris2>`_
 
-If you want to install it the "hard way", you can use a bootstrapping
-version of Idris 2, which is implemented in Idris 1:
+You can also use idris via pack, the package manager.
 
-+ ``git clone`` `https://github.com/edwinb/Idris2-boot.git <https://github.com/edwinb/Idris2=boot>`_
+* Install `pack <http://github.com/stefan-hoeck/pack>`_
 
 Previous releases are also available:
 
 * `idris2-0.5.1.tgz <{static}../releases/idris2-0.5.1.tgz>`_ `(SHA 256 hash) <{static}../releases/idris2-0.5.1.tgz.sha256>`__
 * `idris2-0.4.0.tgz <{static}../releases/idris2-0.4.0.tgz>`_ `(SHA 256 hash) <{static}../releases/idris2-0.4.0.tgz.sha256>`__
 
-Idris 1
--------
+Idris 1 (legacy)
+----------------
+
+Idris 1 is no longer maintained but remains available. If you are still using idris 1, consider switching to idris 2.
+
+* Guide to port to `idris 2 <https://idris2.readthedocs.io/en/latest/updates/updates.html>`_
 
 You can find the source from the following places:
 
