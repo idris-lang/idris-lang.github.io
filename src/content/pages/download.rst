@@ -22,9 +22,9 @@ You can always find the latest development version `on github
 
 + ``git clone`` `https://github.com/idris-lang/Idris2.git <https://github.com/idris-lang/Idris2>`_
 
-You can also use idris via pack, the package manager.
+You can also install and use Idris 2 via ``pack``, the package manager:
 
-* Install `pack <http://github.com/stefan-hoeck/pack>`_
+* See `pack's install instructions <https://github.com/stefan-hoeck/idris2-pack>`_
 
 Previous releases are also available:
 
