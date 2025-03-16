@@ -73,8 +73,8 @@ p {margin-bottom: 1.143em;}
 strong, b {font-weight: bold;}
 em, i {font-style: italic;}
 
-::-moz-selection {background: #F6CF74; color: #330022;}
-::selection {background: #F6CF74; color: #330022;}
+::-moz-selection {background: #A0303B; color: #fff;}
+::selection {background: #A0303B; color: #fff;}
 
 /* Lists */
 ul {
