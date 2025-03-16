@@ -28,7 +28,7 @@ LINKS = ()
 #         ('CS at St Andrews', 'https://www.cs.st-andrews.ac.uk/'),)
 
 # Social widget
-SOCIAL = (('@idrislang', 'https://www.twitter.com/idrislang'),
+SOCIAL = (('Bluesky', 'https://bsky.app/profile/idris-lang.org'),
           ('GitHub', 'https://www.github.com/idris-lang'),)
 
 DEFAULT_PAGINATION = 10
