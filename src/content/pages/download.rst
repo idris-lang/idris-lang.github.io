@@ -80,6 +80,6 @@ There are editor modes which support interactive editing:
 
 * Idris 1
 
-  * `Atom package <https://atom.io/packages/language-idris>`_
   * `Vim mode (for Idris 1) <https://github.com/idris-hackers/idris-vim>`_
   * `Emacs mode (for Idris 1 and 2) <https://github.com/idris-hackers/idris-mode>`_
+  * `(DEPRECATED) <https://github.blog/news-insights/product-news/sunsetting-atom/>`_ `Atom package <https://atom.io/packages/language-idris>`__
