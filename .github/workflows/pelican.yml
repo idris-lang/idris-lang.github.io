@@ -46,6 +46,8 @@ env:
   # TODO: update when officially switching to community-managed page
   SITEURL: "https://test.idris-lang.org/"
   REQUIREMENTS: "-r requirements.txt"
+  # FIXME: remove once official action can be used
+  OUTPUT_PATH: "output/"
   # FIXME: remove when workflow is no longer bitrotted
   DEPLOY: false
 
@@ -102,7 +104,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ${{ env.OUTPUT_PATH || "output/" }}
+          path: ${{ env.OUTPUT_PATH }}
   deploy:
     concurrency:
       group: "pages"
