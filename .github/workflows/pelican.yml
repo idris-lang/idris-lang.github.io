@@ -48,6 +48,7 @@ env:
   REQUIREMENTS: "-r requirements.txt"
   # FIXME: remove once official action can be used
   OUTPUT_PATH: "output/"
+  WORKING_DIR: "./src"
 
 # Allow one concurrent deployment
 concurrency:
@@ -102,7 +103,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "${{ defaults.run.working-dir }}/${{ env.OUTPUT_PATH }}"
+          path: "${{ env.WORKING_DIR }}/${{ env.OUTPUT_PATH }}"
   deploy:
     concurrency:
       group: "pages"
