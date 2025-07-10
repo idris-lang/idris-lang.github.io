@@ -28,9 +28,11 @@ jobs:
       pages: write
       id-token: write
     with:
-      settings: "publishconf.py"
+      settings: "./src/publishconf.py"
       python: "3.9"
+      # TODO: update when officially switching to community-managed page
       siteurl: "https://test.idris-lang.org/"
+      requirements: "-r ./src/requirements.txt"
       # FIXME: remove when workflow is no longer bitrotted
       deploy: false
 
