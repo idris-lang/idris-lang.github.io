@@ -29,6 +29,7 @@ jobs:
     with:
       settings: "publishconf.py"
       python: "3.9"
+      siteurl: "https://test.idris-lang.org/"
       # FIXME: remove when workflow is no longer bitrotted
       deploy: false
 
