@@ -109,7 +109,7 @@ jobs:
     concurrency:
       group: "pages"
       cancel-in-progress: false
-    if: ${{ env.DEPLOY }}
+    if: env.DEPLOY
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
