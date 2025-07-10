@@ -48,8 +48,6 @@ env:
   REQUIREMENTS: "-r requirements.txt"
   # FIXME: remove once official action can be used
   OUTPUT_PATH: "output/"
-  # FIXME: remove when workflow is no longer bitrotted
-  DEPLOY: false
 
 # Allow one concurrent deployment
 concurrency:
@@ -106,10 +104,13 @@ jobs:
         with:
           path: ${{ env.OUTPUT_PATH }}
   deploy:
+    env:
+      # FIXME: remove when workflow is no longer bitrotted
+      DEPLOY: false
     concurrency:
       group: "pages"
       cancel-in-progress: false
-    if: env.DEPLOY
+    if: ${{ env.DEPLOY }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
