@@ -102,7 +102,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ${{ env.OUTPUT_PATH }}
+          path: "${{ defaults.run.working-dir }}/${{ env.OUTPUT_PATH }}"
   deploy:
     concurrency:
       group: "pages"
