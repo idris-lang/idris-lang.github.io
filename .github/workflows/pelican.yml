@@ -104,13 +104,11 @@ jobs:
         with:
           path: ${{ env.OUTPUT_PATH }}
   deploy:
-    env:
-      # FIXME: remove when workflow is no longer bitrotted
-      DEPLOY: false
     concurrency:
       group: "pages"
       cancel-in-progress: false
-    if: ${{ env.DEPLOY }}
+    # FIXME: remove when workflow is no longer bitrotted
+    if: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
