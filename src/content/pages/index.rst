@@ -9,6 +9,18 @@ Idris: A Language for Type-Driven Development
 ..   :alt: [Shape Sorter Box]
 ..   :align: right
 
+
+-----
+
+*IMPORTANT: The Idris website and install instructions are out of date. We are
+working on rectifying this as soon as possible. In the meantime, for installing
+you will likely want to use*
+`pack <https://github.com/stefan-hoeck/idris2-pack>`__,
+*and for up-to-date information, please see the*
+`Idris2 GitHub Repository <https://github.com/idris-lang/Idris2/>`__.
+
+-----
+
 Idris is a programming language designed to encourage *Type-Driven
 Development*.
 
