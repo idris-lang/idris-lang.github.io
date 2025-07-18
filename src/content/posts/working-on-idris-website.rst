@@ -20,5 +20,5 @@ which should hopefully help reduce confusion. And on the admin side, the
 GitHub Pages workflow is no longer bitrotted and the site builds again; that
 should help with things.
 
-We're (finally) on it!
+We're on it!
 
