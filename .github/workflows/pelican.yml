@@ -45,7 +45,7 @@ env:
   SETTINGS: "publishconf.py"
   PYTHON: "3.9"
   # TODO: update when officially switching to community-managed page
-  SITEURL: "https://test.idris-lang.org/"
+  SITEURL: "https://www.idris-lang.org/"
   REQUIREMENTS: "-r requirements.txt"
   # FIXME: remove once official action can be used
   OUTPUT_PATH: "output/"
