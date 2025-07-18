@@ -1,24 +1,24 @@
 We're Working on the Idris Website
 ##################################
 
-:date: 2025-07-11 16:47
+:date: 2025-07-18 14:19
 :tags: meta
 :category: News
 :author: CodingCellist
 
-As has been pointed out on the Discord, on Mastodon, and GitHub, the Idris
-website is severely out of date. Getting it to a more easily maintainable point
-has been on the todo-list for a while now, but there has been many complications
-and other priorities, especially since nobody was paid full-time to sort any of
-it out.  Until now.
+As has been pointed out on the Discord, on Mastodon, and on GitHub, the Idris
+website is severely out of date. It has been on the todo-list for a while, but
+I'm now actively working on bringing it up to speed, as well as making it easier
+to maintain going forward.
 
-I'm not promising it'll be done tomorrow or anything like that, but I *am*
-working on it. For now, there's a banner on the front and download pages of the
-site at least acknowledging things are old and pointing people to more
-up-to-date resources; I'm hoping that'll mitigate some of the continuous
-confusion.
+In the meantime, a banner has been added to the front and download pages,
+pointing visitors to more current resources
+(`pack <https://github.com/stefan-hoeck/idris2-pack>`__
+and the
+`Idris2 GitHub Repository <https://github.com/idris-lang/Idris2/>`__),
+which should hopefully help reduce confusion. And on the admin side, the
+GitHub Pages workflow is no longer bitrotted and the site builds again; that
+should help with things.
 
-I hope that knowing there is a plan is reassuring. I can't give an exact
-timeline, but expect improvements to come in the next couple of months. (For
-starters, the GitHub Pages workflow is no longer bitrotted and the site actually
-builds again; it's been *a while* since any of us looked at this...)
+We're (finally) on it!
+
