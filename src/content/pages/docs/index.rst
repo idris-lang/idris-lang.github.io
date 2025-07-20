@@ -16,11 +16,13 @@ This includes:
 
 There is API documentation for the following packages:
 
-* `prelude <https://www.idris-lang.org/docs/idris2/current/prelude_docs/>`__
-* `base <https://www.idris-lang.org/docs/idris2/current/base_docs/>`__
-* `contrib <https://www.idris-lang.org/docs/idris2/current/contrib_docs/>`__
-* `network <https://www.idris-lang.org/docs/idris2/current/network_docs/>`__
-* `test <https://www.idris-lang.org/docs/idris2/current/test_docs/>`__
+* `prelude <https://www.idris-lang.org/Idris2/prelude>`__
+* `base <https://www.idris-lang.org/Idris2/base>`__
+* `contrib <https://www.idris-lang.org/Idris2/contrib>`__
+* `linear <https://www.idris-lang.org/Idris2/linear>`__
+* `network <https://www.idris-lang.org/Idris2/network>`__
+* `test <https://www.idris-lang.org/Idris2/test>`__
+* `papers <https://www.idris-lang.org/Idris2/papers>`__
 
 You can also find our `Community Standards <{filename}./standards.rst>`_ here.
 
