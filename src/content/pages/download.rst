@@ -1,26 +1,21 @@
 Download
 ========
 
-
-*IMPORTANT: The Idris website and install instructions are out of date. We are
-working on rectifying this as soon as possible. In the meantime, for installing
-you will likely want to use*
-`pack <https://github.com/stefan-hoeck/idris2-pack>`__,
-*and for up-to-date information, please see the*
-`Idris2 GitHub Repository <https://github.com/idris-lang/Idris2/>`__.
-
-
 Idris 2
 -------
+
+To get the cutting edge version of the compiler, use the package manager ``pack`` –
+please see `pack's install & usage instructions <https://github.com/stefan-hoeck/idris2-pack>`_.
+
+``pack`` will also handle your dependencies using the `pack collection <https://github.com/stefan-hoeck/idris2-pack-db/blob/main/collections/HEAD.toml>`_.
+You will have to use ``pack build`` instead of idris to compile.
+
+If you already use ``pack``, you can update your idris version by using ``pack switch latest``.
 
 The latest released version is Idris2-0.7.0,
 `released 2023-12-22 <{filename}../posts/idris2-0-7-0-released.rst>`_.
 
-You can install and use Idris 2 via either:
-
-* ``pack``, the package manager – please see
-  `pack's install instructions <https://github.com/stefan-hoeck/idris2-pack>`_.
-* The release tarball –
+And its associated tarballs
   `idris2-0.7.0.tgz <{static}../releases/idris2-0.7.0.tgz>`_
   `(SHA 256 hash) <{static}../releases/idris2-0.7.0.tgz.sha256>`__.
 
@@ -37,8 +32,6 @@ You can always find the latest development version `on github
 <http://github.com/idris-lang/Idris2>`_:
 
 * ``git clone`` `https://github.com/idris-lang/Idris2.git <https://github.com/idris-lang/Idris2>`_
-
-Or by switching to the ``"latest"`` package collection if using ``pack``.
 
 Previous releases are also available:
 
