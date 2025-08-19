@@ -4,20 +4,26 @@ Download
 Idris 2
 -------
 
-To get the cutting edge version of Idris 2, use the package manager ``pack`` –
+The easiest way to install and use Idris 2, is to use the package manager ``pack`` –
 please see `pack's install & usage instructions <https://github.com/stefan-hoeck/idris2-pack>`_.
 
-``pack`` will also handle your dependencies using the
+This will install the cutting edge version of the compiler, as well as handle
+your dependencies using the
 `pack collection <https://github.com/stefan-hoeck/idris2-pack-db/blob/main/collections/HEAD.toml>`_.
 You will have to use ``pack build`` instead of ``idris2 --build`` to compile a
 package.
 
 If you already use ``pack``, you can update your Idris version to the latest git
-commit (``HEAD``) by using ``pack switch latest``.
+commit (``HEAD``) by using ``pack switch latest``. If you wish to use a specific
+release with ``pack``, currently the only way to do this is to find the release
+date, and then switch to its nightly collection by using, for example,
+``pack switch nightly-231222`` (which would switch to the 0.7.0 release).
 
-Alternatively, the latest formally released version is Idris2-0.7.0,
+The latest formally released version is Idris2-0.7.0,
 `released 2023-12-22 <{filename}../posts/idris2-0-7-0-released.rst>`_,
-with its associated source tarball:
+with its associated source tarball, which could alternatively be used for
+installation, forgoing ``pack`` (packages would have to be managed manually, via
+scripts, or via other software):
 
 * `idris2-0.7.0.tgz <{static}../releases/idris2-0.7.0.tgz>`_
   `(SHA 256 hash) <{static}../releases/idris2-0.7.0.tgz.sha256>`__
