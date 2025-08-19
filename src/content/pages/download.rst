@@ -1,6 +1,18 @@
 Download
 ========
 
+Prerequisites
+-------------
+
+In order to install Idris 2, you need:
+
+* Either `Chez Scheme <https://cisco.github.io/ChezScheme/>`_ or
+  `Racket <https://racket-lang.org>`_, to build the bootstrapping Scheme source.
+* ``bash``, with ``realpath``. On Linux, you probably already have this. On
+  a Mac, you can install this with ``brew install coreutils``.
+* A C compiler, to build the library support code.
+
+
 Idris 2
 -------
 
@@ -30,13 +42,7 @@ scripts, or via other software):
 
 Both ``pack`` and the release tarball include generated Scheme sources
 sufficient for bootstrapping, so you don't need an existing Idris 2 system to
-build. You need:
-
-* Either `Chez Scheme <https://cisco.github.io/ChezScheme/>`_ or `Racket
-  <https://racket-lang.org>`_ to build the generated Scheme source
-* ``bash``, with ``realpath``. On Linux, you probably already have this. On
-  a Mac, you can install this with ``brew install coreutils``.
-* A C compiler, to build the library support code.
+build.
 
 You can always find the latest development version `on github
 <http://github.com/idris-lang/Idris2>`_:
