@@ -4,23 +4,27 @@ Download
 Idris 2
 -------
 
-To get the cutting edge version of the compiler, use the package manager ``pack`` –
+To get the cutting edge version of Idris 2, use the package manager ``pack`` –
 please see `pack's install & usage instructions <https://github.com/stefan-hoeck/idris2-pack>`_.
 
-``pack`` will also handle your dependencies using the `pack collection <https://github.com/stefan-hoeck/idris2-pack-db/blob/main/collections/HEAD.toml>`_.
-You will have to use ``pack build`` instead of idris to compile.
+``pack`` will also handle your dependencies using the
+`pack collection <https://github.com/stefan-hoeck/idris2-pack-db/blob/main/collections/HEAD.toml>`_.
+You will have to use ``pack build`` instead of ``idris2 --build`` to compile a
+package.
 
-If you already use ``pack``, you can update your idris version by using ``pack switch latest``.
+If you already use ``pack``, you can update your Idris version to the latest git
+commit (``HEAD``) by using ``pack switch latest``.
 
-The latest released version is Idris2-0.7.0,
-`released 2023-12-22 <{filename}../posts/idris2-0-7-0-released.rst>`_.
+Alternatively, the latest formally released version is Idris2-0.7.0,
+`released 2023-12-22 <{filename}../posts/idris2-0-7-0-released.rst>`_,
+with its associated source tarball:
 
-And its associated tarballs
-  `idris2-0.7.0.tgz <{static}../releases/idris2-0.7.0.tgz>`_
-  `(SHA 256 hash) <{static}../releases/idris2-0.7.0.tgz.sha256>`__.
+* `idris2-0.7.0.tgz <{static}../releases/idris2-0.7.0.tgz>`_
+  `(SHA 256 hash) <{static}../releases/idris2-0.7.0.tgz.sha256>`__
 
-Both include generated Scheme sources sufficient for bootstrapping, so you don't
-need an existing Idris 2 system to build. You need:
+Both ``pack`` and the release tarball include generated Scheme sources
+sufficient for bootstrapping, so you don't need an existing Idris 2 system to
+build. You need:
 
 * Either `Chez Scheme <https://cisco.github.io/ChezScheme/>`_ or `Racket
   <https://racket-lang.org>`_ to build the generated Scheme source
