@@ -25,8 +25,8 @@ your dependencies using the
 You will have to use ``pack build`` instead of ``idris2 --build`` to compile a
 package.
 
-If you already use ``pack``, you can update your Idris version to the latest git
-commit (``HEAD``) by using ``pack switch latest``. If you wish to use a specific
+If you already use ``pack``, you can update your Idris version to the latest version 
+in development by using ``pack switch latest``[#f1]_. If you wish to use a specific
 release with ``pack``, currently the only way to do this is to find the release
 date, and then switch to its nightly collection by using, for example,
 ``pack switch nightly-231222`` (which would switch to the 0.7.0 release).
@@ -111,3 +111,7 @@ There are editor modes which support interactive editing:
   * `Vim mode (for Idris 1) <https://github.com/idris-hackers/idris-vim>`_
   * `Emacs mode (for Idris 1 and 2) <https://github.com/idris-hackers/idris-mode>`_
   * `(DEPRECATED) <https://github.blog/news-insights/product-news/sunsetting-atom/>`_ `Atom package <https://atom.io/packages/language-idris>`__
+
+.. rubric:: Footnotes
+
+.. [#f1] This version point to the latest git commit (``HEAD``) of the Idris 2 project.
