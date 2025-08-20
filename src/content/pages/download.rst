@@ -1,44 +1,53 @@
 Download
 ========
 
+Prerequisites
+-------------
 
-*IMPORTANT: The Idris website and install instructions are out of date. We are
-working on rectifying this as soon as possible. In the meantime, for installing
-you will likely want to use*
-`pack <https://github.com/stefan-hoeck/idris2-pack>`__,
-*and for up-to-date information, please see the*
-`Idris2 GitHub Repository <https://github.com/idris-lang/Idris2/>`__.
+In order to install Idris 2, you need:
+
+* Either `Chez Scheme <https://cisco.github.io/ChezScheme/>`_ or
+  `Racket <https://racket-lang.org>`_, to build the bootstrapping Scheme source.
+* ``bash``, with ``realpath``. On Linux, you probably already have this. On
+  a Mac, you can install this with ``brew install coreutils``.
+* A C compiler, to build the library support code.
 
 
 Idris 2
 -------
 
-The latest released version is Idris2-0.7.0,
-`released 2023-12-22 <{filename}../posts/idris2-0-7-0-released.rst>`_.
+The easiest way to install and use Idris 2, is to use the package manager ``pack`` –
+please see `pack's install & usage instructions <https://github.com/stefan-hoeck/idris2-pack>`_.
 
-You can install and use Idris 2 via either:
+This will install the cutting edge version of the compiler, as well as handle
+your dependencies using the
+`pack collection <https://github.com/stefan-hoeck/idris2-pack-db/blob/main/collections/HEAD.toml>`_.
+You will have to use ``pack build`` instead of ``idris2 --build`` to compile a
+package.
 
-* ``pack``, the package manager – please see
-  `pack's install instructions <https://github.com/stefan-hoeck/idris2-pack>`_.
-* The release tarball –
-  `idris2-0.7.0.tgz <{static}../releases/idris2-0.7.0.tgz>`_
-  `(SHA 256 hash) <{static}../releases/idris2-0.7.0.tgz.sha256>`__.
+If you already use ``pack``, you can update your Idris version to the latest version 
+in development by using ``pack switch latest`` ([#f1]_). If you wish to use a specific
+release with ``pack``, currently the only way to do this is to find the release
+date, and then switch to its nightly collection by using, for example,
+``pack switch nightly-231222`` (which would switch to the 0.7.0 release).
 
-Both include generated Scheme sources sufficient for bootstrapping, so you don't
-need an existing Idris 2 system to build. You need:
+The latest formally released version is Idris2-0.7.0,
+`released 2023-12-22 <{filename}../posts/idris2-0-7-0-released.rst>`_,
+with its associated source tarball, which could alternatively be used for
+installation, forgoing ``pack`` (packages would have to be managed manually, via
+scripts, or via other software):
 
-* Either `Chez Scheme <https://cisco.github.io/ChezScheme/>`_ or `Racket
-  <https://racket-lang.org>`_ to build the generated Scheme source
-* ``bash``, with ``realpath``. On Linux, you probably already have this. On
-  a Mac, you can install this with ``brew install coreutils``.
-* A C compiler, to build the library support code.
+* `idris2-0.7.0.tgz <{static}../releases/idris2-0.7.0.tgz>`_
+  `(SHA 256 hash) <{static}../releases/idris2-0.7.0.tgz.sha256>`__
+
+Both ``pack`` and the release tarball include generated Scheme sources
+sufficient for bootstrapping, so you don't need an existing Idris 2 system to
+build.
 
 You can always find the latest development version `on github
 <http://github.com/idris-lang/Idris2>`_:
 
 * ``git clone`` `https://github.com/idris-lang/Idris2.git <https://github.com/idris-lang/Idris2>`_
-
-Or by switching to the ``"latest"`` package collection if using ``pack``.
 
 Previous releases are also available:
 
@@ -102,3 +111,8 @@ There are editor modes which support interactive editing:
   * `Vim mode (for Idris 1) <https://github.com/idris-hackers/idris-vim>`_
   * `Emacs mode (for Idris 1 and 2) <https://github.com/idris-hackers/idris-mode>`_
   * `(DEPRECATED) <https://github.blog/news-insights/product-news/sunsetting-atom/>`_ `Atom package <https://atom.io/packages/language-idris>`__
+
+Footnotes
+---------
+
+.. [#f1] This version point to the latest git commit (``HEAD``) of the Idris 2 project.
