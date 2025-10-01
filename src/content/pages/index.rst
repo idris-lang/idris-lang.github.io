@@ -3,7 +3,7 @@ Idris: A Language for Type-Driven Development
 
 :save_as: index.html
 :status: hidden
-:date: 2022-10-27 16:35
+:date: 2025-10-01 13:40
 
 .. .. image:: images/profile.jpeg
 ..   :alt: [Shape Sorter Box]
@@ -45,9 +45,18 @@ Community
     Long-form discussion happens on the
     `mailing list <https://groups.google.com/forum/#!forum/idris-lang>`_.
 **GitHub**
-    The Idris source is available from our repository.
-    Tools and code by the wider Idris community are available in a 
-    `GitHub organisation <https://github.com/idris-hackers>`_. 
+    The Idris source is available from
+    `the Idris repository <https://github.com/idris-lang/Idris2>`_.
+
+    LSP, tools, and code by the wider Idris community can generally be found at:
+
+    * The `idris-community <https://github.com/idris-community>`_ organisation,
+      and
+    * the ``pack``
+      `package collection <https://github.com/stefan-hoeck/idris2-pack-db>`_.
+
+    There are some legacy tools and code available in the
+    `idris-hackers <https://github.com/idris-hackers>`_ organisation.
 **Discord**
     There is an Idris community on `Discord <https://discord.com/>`_ with
     several channels for learning, help and different aspects of development.
