@@ -1,6 +1,18 @@
 Papers
 ======
 
+The Idris Language
+------------------
+
+* `Idris 2: Quantitative Type Theory in Practice <https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2021.9>`_,
+  Edwin Brady, in 35th European Conference on Object-Oriented Programming
+  (ECOOP 2021).
+* `Idris, a General Purpose Dependently Typed Programming Language: Design and Implementation <https://www.type-driven.org.uk/edwinb/papers/impldtp.pdf>`_,
+  Edwin Brady, in Journal of Functional Programming, October 2013.
+
+Associated Publications
+-----------------------
+
 There are several academic publications associated with Idris, including:
 
 * `Value Dependent Session Design in a Dependently Typed Language <https://www.type-driven.org.uk/edwinb/papers/places2019.pdf>`_,
@@ -15,8 +27,6 @@ There are several academic publications associated with Idris, including:
   David Christiansen and Edwin Brady, in Proceedings of ICFP 2016.
 * `Resource-dependent Algebraic Effects <https://www.type-driven.org.uk/edwinb/papers/dep-eff.pdf>`_,
   Edwin Brady, in Proceedings of TFP 2014.
-* `Idris, a General Purpose Dependently Typed Programming Language: Design and Implementation <https://www.type-driven.org.uk/edwinb/papers/impldtp.pdf>`_,
-  Edwin Brady, in Journal of Functional Programming, October 2013.
 * `Dependent Type Providers <http://www.davidchristiansen.dk/pubs/dependent-type-providers.pdf>`_,
   David Christiansen, in Workshop on Generic Programming, 2013.
 * `Dependent Types for Safe and Secure Web Programming <https://www.type-driven.org.uk/edwinb/papers/ifl2013.pdf>`_,
