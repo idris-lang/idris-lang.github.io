@@ -26,21 +26,25 @@ There is API documentation for the following packages:
 
 You can also find our `Community Standards <{filename}./standards.rst>`_ here.
 
-Idris 1
--------
 
-Documentation for Idris 1 is available from
-`https://docs.idris-lang.org <https://docs.idris-lang.org/>`_.
+Idris 1 (DEPRECATED)
+--------------------
 
-There is API documentation for the following packages provided as part of the Idris distribution:
+**Idris 1 is deprecated. If you are still using Idris 1, we recommend switching
+to Idris 2.** A list of differences is available
+`in the documentation <https://idris2.readthedocs.io/en/latest/updates/updates.html>`_.
 
-* `prelude <https://www.idris-lang.org/docs/current/prelude_doc/>`_
-* `base <https://www.idris-lang.org/docs/current/base_doc/>`_
-* `contrib <https://www.idris-lang.org/docs/current/contrib_doc/>`_
-* `effects <https://www.idris-lang.org/docs/current/effects_doc/>`_
+As such, documentation is no longer available through the website. If you still
+require access to the Idris 1 documentation, the following Internet Archive
+(aka. Wayback Machine) snapshots are available:
 
-The `Idris Wiki <https://github.com/idris-lang/Idris-dev/wiki>`_ contains
-a lot of community supplied information. 
+* `Idris 1 documentation <https://web.archive.org/web/20210413141523/http://docs.idris-lang.org/en/latest/>`_
+* `API documentation <https://web.archive.org/web/20210120133940/https://www.idris-lang.org/docs/current/>`_
+
+Additionally, the
+`old Idris 1 Wiki <https://github.com/idris-lang/Idris-dev/wiki>`_
+contains a lot of community supplied information. 
+
 
 Related Publications
 --------------------
