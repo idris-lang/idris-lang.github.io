@@ -55,13 +55,26 @@ Previous releases are also available:
 * `idris2-0.5.1.tgz <{static}../releases/idris2-0.5.1.tgz>`_ `(SHA 256 hash) <{static}../releases/idris2-0.5.1.tgz.sha256>`__
 * `idris2-0.4.0.tgz <{static}../releases/idris2-0.4.0.tgz>`_ `(SHA 256 hash) <{static}../releases/idris2-0.4.0.tgz.sha256>`__
 
-Idris 1 (legacy)
-----------------
 
-Idris 1 is no longer maintained but remains available. If you are still using Idris 1, consider switching to Idris 2.
+Editor Support
+--------------
 
-* A list of differences is available
-  `in the documentation <https://idris2.readthedocs.io/en/latest/updates/updates.html>`_.
+Idris 2 editor integration, including interactive editing, is available through
+different methods:
+
+* `Language Server Protocol (LSP) <https://github.com/idris-community/idris2-lsp>`_
+* `Vim mode (for Idris 2) <https://github.com/edwinb/idris2-vim>`_
+* `Emacs mode (for Idris 1 and 2) <https://github.com/idris-hackers/idris-mode>`_
+* `Emacs mode (for Idris 2 only) <https://github.com/idris-community/idris2-mode>`_
+
+
+Idris 1 (DEPRECATED)
+--------------------
+
+**Idris 1 is no longer maintained but remains available. If you are still using
+Idris 1, we recommend switching to Idris 2.**
+A list of differences is available
+`in the documentation <https://idris2.readthedocs.io/en/latest/updates/updates.html>`_.
 
 You can find the source from the following places:
 
@@ -75,42 +88,27 @@ You can find the source from the following places:
 
   + ``git clone`` `git://github.com/idris-lang/Idris-dev.git <https://github.com/idris-lang/Idris-dev>`_
 
-More detailed installation instructions that are maintained by the Idris
-community are available on the wiki for the following platforms:
+The old installation instructions that were maintained by the Idris community
+are available on the Idris 1 wiki:
 
 * `MacOS <https://github.com/idris-lang/Idris-dev/wiki/Idris-on-OS-X-using-Homebrew>`_
 * `Windows <https://github.com/idris-lang/Idris-dev/wiki/Idris-on-Windows>`_
 * `Ubuntu <https://github.com/idris-lang/Idris-dev/wiki/Idris-on-Ubuntu>`_
 * `Debian <https://github.com/idris-lang/Idris-dev/wiki/Idris-on-Debian>`_
 
-Binary
-------
+There were binary packages available for various platforms:
 
-There are binary packages available for various platforms:
-
-* For Windows: `Windows Binaries <https://github.com/idris-lang/Idris-dev/wiki/Windows-Binaries>`_
-* For OS X: `idris-current.pkg <http://www.idris-lang.org/pkgs/idris-current.pkg>`_ `(SHA 256 hash) <http://www.idris-lang.org/pkgs/idris-current.pkg.sha256>`__
+* Windows: `Windows Binaries <https://github.com/idris-lang/Idris-dev/wiki/Windows-Binaries>`_
+* OS X: `idris-current.pkg <http://www.idris-lang.org/pkgs/idris-current.pkg>`_ `(SHA 256 hash) <http://www.idris-lang.org/pkgs/idris-current.pkg.sha256>`__
 
 If you require any optional features (e.g. GMP or compile time FFI support),
-you will need to build from source.
+you will need to build Idris 1 from source.
 
-Editor Support
---------------
+Idris 1 editor support existed in the form of:
 
-There are editor modes which support interactive editing:
-
-* Idris 2
-
-  * `Vim mode (for Idris 2) <https://github.com/edwinb/idris2-vim>`_
-  * `Emacs mode (for Idris 1 and 2) <https://github.com/idris-hackers/idris-mode>`_
-  * `Emacs mode (for Idris 2 only) <https://github.com/idris-community/idris2-mode>`_
-  * `Language Server Protocol <https://github.com/idris-community/idris2-lsp>`_
-
-* Idris 1
-
-  * `Vim mode (for Idris 1) <https://github.com/idris-hackers/idris-vim>`_
-  * `Emacs mode (for Idris 1 and 2) <https://github.com/idris-hackers/idris-mode>`_
-  * `(DEPRECATED) <https://github.blog/news-insights/product-news/sunsetting-atom/>`_ `Atom package <https://atom.io/packages/language-idris>`__
+* `Vim mode (for Idris 1) <https://github.com/idris-hackers/idris-vim>`_
+* `Emacs mode (for Idris 1 and 2) <https://github.com/idris-hackers/idris-mode>`_
+* `(DEPRECATED) <https://github.blog/news-insights/product-news/sunsetting-atom/>`_ `Atom package <https://atom.io/packages/language-idris>`__
 
 Footnotes
 ---------
