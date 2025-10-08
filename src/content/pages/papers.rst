@@ -16,7 +16,10 @@ The Idris Language
 Associated Publications
 -----------------------
 
-There are numerous academic publications associated with Idris, including:
+There are numerous academic publications associated with Idris, some of which
+are listed below.  If we have missed one or new ones have been published, please
+do
+`submit a pull request <https://github.com/idris-lang/idris-lang.github.io/pulls>`_.
 
 * `Frex: Dependently Typed Algebraic Simplification <https://dl.acm.org/doi/10.1145/3747506>`_,
   Guillaume Allais, Edwin Brady, Nathan Corbyn, Ohad Kammar, and Jeremy Yallop.
