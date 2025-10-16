@@ -4,7 +4,7 @@ Documentation
 Idris 2
 -------
 
-Idris 2 is still a work in progress, but documentation is growing, and
+Idris 2 is still a work in progress, but documentation continues to grow, and
 available from
 `https://idris2.readthedocs.org <https://idris2.readthedocs.io/>`_.
 This includes:
@@ -23,6 +23,9 @@ There is API documentation for the following packages:
 * `network <https://www.idris-lang.org/Idris2/network>`__
 * `test <https://www.idris-lang.org/Idris2/test>`__
 * `papers <https://www.idris-lang.org/Idris2/papers>`__
+
+Some further resources are linked on
+`the Idris2 GitHub Wiki <https://github.com/idris-lang/Idris2/wiki>`_.
 
 You can also find our `Community Standards <{filename}./standards.rst>`_ here.
 
