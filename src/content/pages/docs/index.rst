@@ -14,6 +14,11 @@ This includes:
 * `Changes required <https://idris2.readthedocs.io/en/latest/typedd/typedd.html>`_
   to the code in `Type Driven Development with Idris <https://www.manning.com/books/type-driven-development-with-idris>`_.
 
+The
+`community-maintained Idris2 tutorial <https://idris-community.github.io/idris2-tutorial/>`_
+(originally written by Stefan Höck for undergraduate university teaching) is an
+excellent entry-point.
+
 There is API documentation for the following packages:
 
 * `prelude <https://www.idris-lang.org/Idris2/prelude>`__
