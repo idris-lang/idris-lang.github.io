@@ -1,7 +1,7 @@
 Example
 =======
 
-:date: 2020-04-01 11:00
+:date: 2025-10-16 17:30
 
 Idris is a purely functional programming language, with first class types
 - meaning that types are first class language constructs, and can be computed,
@@ -91,7 +91,12 @@ lengths of the inputs:
     app Nil       ys = ys
     app (x :: xs) ys = x :: app xs ys
 
-For more details, see `the tutorial <https://idris2.readthedocs.io/en/latest/tutorial/index.html>`_.
+For more details and quickly getting up to speed, there is
+`the "Crash Course in Idris2" <https://idris2.readthedocs.io/en/latest/tutorial/index.html>`_.
+
+For a more beginner-friendly tutorial, please see
+`the community-maintained Idris2 tutorial <https://idris-community.github.io/idris2-tutorial/>`_,
+originally written by Stefan Höck for undergraduate university teaching.
 
 Talks
 -----
