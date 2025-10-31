@@ -29,16 +29,16 @@ If you already use ``pack``, you can update your Idris version to the latest ver
 in development by using ``pack switch latest`` ([#f1]_). If you wish to use a specific
 release with ``pack``, currently the only way to do this is to find the release
 date, and then switch to its nightly collection by using, for example,
-``pack switch nightly-231222`` (which would switch to the 0.7.0 release).
+``pack switch nightly-251031`` (which would switch to the 0.8.0 release).
 
-The latest formally released version is Idris2-0.7.0,
-`released 2023-12-22 <{filename}../posts/idris2-0-7-0-released.rst>`_,
+The latest formally released version is Idris2-0.8.0,
+`released 2025-10-31 <{filename}../posts/idris2-0-8-0-released.rst>`_,
 with its associated source tarball, which could alternatively be used for
 installation, forgoing ``pack`` (packages would have to be managed manually, via
 scripts, or via other software):
 
-* `idris2-0.7.0.tgz <{static}../releases/idris2-0.7.0.tgz>`_
-  `(SHA 256 hash) <{static}../releases/idris2-0.7.0.tgz.sha256>`__
+* `idris2-0.8.0.tgz <{static}../releases/idris2-0.8.0.tgz>`_
+  `(SHA 256 hash) <{static}../releases/idris2-0.8.0.tgz.sha256>`__
 
 Both ``pack`` and the release tarball include generated Scheme sources
 sufficient for bootstrapping, so you don't need an existing Idris 2 system to
@@ -51,6 +51,8 @@ You can always find the latest development version `on github
 
 Previous releases are also available:
 
+* `idris2-0.7.0.tgz <{static}../releases/idris2-0.7.0.tgz>`_
+  `(SHA 256 hash) <{static}../releases/idris2-0.7.0.tgz.sha256>`__
 * `idris2-0.6.0.tgz <{static}../releases/idris2-0.6.0.tgz>`_ `(SHA 256 hash) <{static}../releases/idris2-0.6.0.tgz.sha256>`__
 * `idris2-0.5.1.tgz <{static}../releases/idris2-0.5.1.tgz>`_ `(SHA 256 hash) <{static}../releases/idris2-0.5.1.tgz.sha256>`__
 * `idris2-0.4.0.tgz <{static}../releases/idris2-0.4.0.tgz>`_ `(SHA 256 hash) <{static}../releases/idris2-0.4.0.tgz.sha256>`__
