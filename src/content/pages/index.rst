@@ -57,6 +57,12 @@ Community
 
     There are some legacy tools and code available in the
     `idris-hackers <https://github.com/idris-hackers>`_ organisation.
+**Zulip**
+    There is an Idris community on
+    `Zulip <https://idris-lang.zulipchat.com>`__,
+    with several channels for learning, help, and different aspects of
+    development.  This is probably the most active place for interactive
+    discussion of Idris and projects using it.
 **IRC**
     There is also an irc channel ``#idris`` on `libera <https://libera.chat/>`_.
     Point your irc client to ``irc.libera.chat`` then ``/join #idris``.
@@ -94,4 +100,11 @@ Idris has been generously supported by the following `EPSRC <https://epsrc.ukri.
 * `Programming as Conversation: Type-Driven Development in Action <https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T007265/1>`_
 
 We are also grateful for the continuing support
-of `SICSA <http://www.sicsa.ac.uk/>`_, the Scottish Informatics and Computer Science Alliance
+of `SICSA <http://www.sicsa.ac.uk/>`_, the Scottish Informatics and Computer
+Science Alliance.
+
+Finally, we are grateful to
+`Zulip <https://zulip.com>`__
+(an organized team chat app designed for efficient communication) for providing
+us with a
+`sponsored Zulip Cloud Standard plan <{filename}../posts/zulip-sponsored-hosting.rst>`_.
