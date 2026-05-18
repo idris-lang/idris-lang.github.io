@@ -24,7 +24,7 @@ To get started, you can see:
 
 The installation has worked successfully on Linux, Mac and Raspberry Pi.  Please
 let us know (ideally via the `mailing list
-<{filename}../pages/community.rst>`_) how you get on with installing on
+<https://groups.google.com/forum/#!forum/idris-lang>`__) how you get on with installing on
 other platforms. It's likely to need some work before it will install on
 Windows - we'd really like this to work, so please also let us know if you can
 help.
