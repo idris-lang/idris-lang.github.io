@@ -57,20 +57,23 @@ Community
 
     There are some legacy tools and code available in the
     `idris-hackers <https://github.com/idris-hackers>`_ organisation.
-**Discord**
+**IRC**
+    There is also an irc channel ``#idris`` on `libera <https://libera.chat/>`_.
+    Point your irc client to ``irc.libera.chat`` then ``/join #idris``.
+    For a web interface, you can try `IRCCloud <https://www.irccloud.com/>`_.
+**Discord (DEPRECATED)**
+    *NOTE: The Discord will be read-only by 2026-05-25 UTC+1,* it is being
+    `deprecated in favour of Zulip <{filename}../posts/community-moving-to-zulip.rst>`_.
+
     There is an Idris community on `Discord <https://discord.com/>`_ with
     several channels for learning, help and different aspects of development.
     You can `get an invitation to join here <https://discord.gg/YXmWC5yKYM>`_
     This is currently probably the most active place for interactive discussion
     of Idris.
-**IRC**
-    There is also an irc channel ``#idris`` on `libera <https://libera.chat/>`_.
-    Point your irc client to ``irc.libera.chat`` then ``/join #idris``.
-    For a web interface, you can try `IRCCloud <https://www.irccloud.com/>`_.
-**Slack**
+**Slack (DEPRECATED)**
     There is an ``#idris`` channel on the 
     `Functional Programming <https://functionalprogramming.slack.com/>`_
-    Slack.
+    Slack. However, at the time of writing (2026-05-18), it is very rarely used.
 
 All participants in these forums are requested to abide by the 
 `community standards <{filename}./docs/standards.rst>`_.
