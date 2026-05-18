@@ -26,7 +26,7 @@ To get started, you can see:
 
 The installation has (so far) worked successfully on Linux, Windows, and Mac.
 Please let us know (ideally via the `mailing list
-<{filename}../pages/community.rst>`_) how you get on with installing on other
+<https://groups.google.com/forum/#!forum/idris-lang>`__) how you get on with installing on other
 platforms.
 
 For a detailed list of changes, see
